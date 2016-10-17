@@ -22,7 +22,7 @@ window.onload = function taxIdeas () {
     }
   }).done(function(data) {
      ourData = data;
-     console.log(data);
+     console.log(ourData);
   })
 
 };
