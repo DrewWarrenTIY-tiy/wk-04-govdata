@@ -1,1 +1,3 @@
-setTimeout(console.log(ourData), 200);
+function taxIdeaData(data) {
+  console.log(data);
+}

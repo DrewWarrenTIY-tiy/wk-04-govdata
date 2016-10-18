@@ -18,11 +18,11 @@ window.onload = function taxIdeas () {
     dataType: "json",
     url: url,
     data: {
-      "$limit" : 100
+      "$limit" : 25
     }
   }).done(function(data) {
      ourData = data;
-     console.log(ourData);
+     taxIdeaData(ourData);
   })
 
 };
