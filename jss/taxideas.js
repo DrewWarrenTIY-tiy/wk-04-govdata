@@ -1,3 +1,5 @@
+"use strict";
+
 /* https://open.whitehouse.gov/ data from the
    Tax Ideas Submitted by the Public
 */
@@ -18,7 +20,7 @@ window.onload = function taxIdeas () {
     dataType: "json",
     url: url,
     data: {
-      "$limit" : 25
+      "$limit" : 30
     }
   }).done(function(data) {
      ourData = data;

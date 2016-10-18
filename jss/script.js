@@ -1,3 +1,5 @@
+
+
 function taxIdeaData(data) {
 
 
@@ -14,9 +16,9 @@ function taxIdeaData(data) {
 
   document.getElementById(i.toString()).innerHTML = eachArray[i].toString();
 
-  document.querySelector('.dataTestOne').innerHTML = nameArray.join(" ");
-  document.querySelector('.dataTestTwo').innerHTML = orgArray.join(" ");
-  document.querySelector('.dataTestThree').innerHTML = orgTypeArray.join(" ");
+  // document.querySelector('.dataTestOne').innerHTML = nameArray.join(" ");
+  // document.querySelector('.dataTestTwo').innerHTML = orgArray.join(" ");
+  // document.querySelector('.dataTestThree').innerHTML = orgTypeArray.join(" ");
 }
 console.log(nameArray);
 console.log(orgArray);

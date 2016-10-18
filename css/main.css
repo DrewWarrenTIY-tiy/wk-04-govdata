@@ -1,25 +1,36 @@
+.* {
+  margin: 0
+  padding: 0
+}
+
 .dataTestOne {
   background-color: lightblue;
   width: 500px;
-  height: 150px;
+  height: 200px;
 }
 
 .dataTestTwo {
   background-color: lightpink;
   width: 500px;
-  height: 150px;
+  height: 200px;
 }
 
 .dataTestThree {
   background-color: lightgrey;
   width: 500px;
-  height: 150px;
+  height: 200px;
 }
 
 .testDiv {
+  background-image: url(../images/american-flag.jpg);
   background-color: aqua;
-  width: 250px;
-  height: 80px;
-  margin: 10, 0, 10, 0;
-  padding: 10, 0, 10, 0;
+  background-size: cover;
+  background-position: center;
+  width: 220px;
+  height: 130px;
+}
+
+.spanClass {
+  background-color: #222;
+  color: white;
 }
